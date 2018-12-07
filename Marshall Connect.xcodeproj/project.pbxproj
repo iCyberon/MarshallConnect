@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4910FB7A21BDE6080079BB95 /* SwiftXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910FB7921BDE6080079BB95 /* SwiftXMLParser.swift */; };
+		4978F18921BB1EFE0010234F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978F18821BB1EFE0010234F /* AppDelegate.swift */; };
+		4978F19821BB20270010234F /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978F19721BB20270010234F /* EventMonitor.swift */; };
+		4978F19D21BB21CA0010234F /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978F19B21BB21CA0010234F /* PopupViewController.swift */; };
+		4978F19E21BB21CA0010234F /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4978F19C21BB21CA0010234F /* PopupViewController.xib */; };
+		4978F1A121BB257C0010234F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4978F1A021BB257C0010234F /* MainMenu.xib */; };
+		497A97C921BC2AC000EAC83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497A97C821BC2AC000EAC83F /* Assets.xcassets */; };
+		497A97CB21BC34B400EAC83F /* ShadowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497A97CA21BC34B400EAC83F /* ShadowLayer.swift */; };
+		497A97CE21BDB46F00EAC83F /* DiscoveryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497A97CD21BDB46F00EAC83F /* DiscoveryManager.swift */; };
+		497A97D021BDC37800EAC83F /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497A97CF21BDC37800EAC83F /* PlayerManager.swift */; };
+		497A97D221BDC3E500EAC83F /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497A97D121BDC3E500EAC83F /* DeviceManager.swift */; };
+		497A97D521BDC5B500EAC83F /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497A97D421BDC5B500EAC83F /* SWXMLHash.swift */; };
+		497A97D721BDC5CD00EAC83F /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497A97D621BDC5CD00EAC83F /* SWXMLHash+TypeConversion.swift */; };
+		497A97D921BDC73000EAC83F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497A97D821BDC73000EAC83F /* APIManager.swift */; };
+		4982E81921BEDAB7009DDBE9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4982E81821BEDAB7009DDBE9 /* Models.swift */; };
+		4982E86621C08EC9009DDBE9 /* TouchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4982E86321C08D90009DDBE9 /* TouchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4982E86921C09135009DDBE9 /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4982E86821C09135009DDBE9 /* DFRFoundation.framework */; };
+		4982E86B21C09844009DDBE9 /* TouchBarHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4982E86A21C09844009DDBE9 /* TouchBarHelper.h */; };
+		4982E86D21C0984F009DDBE9 /* TouchBarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4982E86C21C0984F009DDBE9 /* TouchBarHelper.swift */; };
+		49B6E35021BB549000ACD237 /* PlaybackSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B6E34F21BB549000ACD237 /* PlaybackSliderCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4910FB7921BDE6080079BB95 /* SwiftXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftXMLParser.swift; sourceTree = "<group>"; };
+		4978F18521BB1EFE0010234F /* Marshall Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marshall Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4978F18821BB1EFE0010234F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4978F18F21BB1F000010234F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4978F19721BB20270010234F /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		4978F19B21BB21CA0010234F /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		4978F19C21BB21CA0010234F /* PopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
+		4978F19F21BB247D0010234F /* Marshall Connect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Marshall Connect.entitlements"; sourceTree = "<group>"; };
+		4978F1A021BB257C0010234F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		497A97C821BC2AC000EAC83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		497A97CA21BC34B400EAC83F /* ShadowLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowLayer.swift; sourceTree = "<group>"; };
+		497A97CD21BDB46F00EAC83F /* DiscoveryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryManager.swift; sourceTree = "<group>"; };
+		497A97CF21BDC37800EAC83F /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		497A97D121BDC3E500EAC83F /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		497A97D421BDC5B500EAC83F /* SWXMLHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		497A97D621BDC5CD00EAC83F /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		497A97D821BDC73000EAC83F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		4982E81821BEDAB7009DDBE9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4982E86321C08D90009DDBE9 /* TouchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBar.h; sourceTree = "<group>"; };
+		4982E86421C08E4B009DDBE9 /* Marshall_Connect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Marshall_Connect.h; sourceTree = "<group>"; };
+		4982E86821C09135009DDBE9 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
+		4982E86A21C09844009DDBE9 /* TouchBarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchBarHelper.h; sourceTree = "<group>"; };
+		4982E86C21C0984F009DDBE9 /* TouchBarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchBarHelper.swift; sourceTree = "<group>"; };
+		49B6E34F21BB549000ACD237 /* PlaybackSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackSliderCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4978F18221BB1EFE0010234F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4982E86921C09135009DDBE9 /* DFRFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4978F17C21BB1EFE0010234F = {
+			isa = PBXGroup;
+			children = (
+				4978F18721BB1EFE0010234F /* Marshall Connect */,
+				4978F18621BB1EFE0010234F /* Products */,
+				4982E86721C09134009DDBE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4978F18621BB1EFE0010234F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4978F18521BB1EFE0010234F /* Marshall Connect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4978F18721BB1EFE0010234F /* Marshall Connect */ = {
+			isa = PBXGroup;
+			children = (
+				4982E81721BEDAA9009DDBE9 /* Models */,
+				497A97D321BDC56B00EAC83F /* Utilities */,
+				497A97CC21BDB45600EAC83F /* Services */,
+				49B6E34E21BB548000ACD237 /* UI */,
+				4978F19621BB200C0010234F /* Conrollers */,
+				4978F1A421BB2F4C0010234F /* Misc */,
+				497A97C821BC2AC000EAC83F /* Assets.xcassets */,
+				4978F18821BB1EFE0010234F /* AppDelegate.swift */,
+			);
+			path = "Marshall Connect";
+			sourceTree = "<group>";
+		};
+		4978F19621BB200C0010234F /* Conrollers */ = {
+			isa = PBXGroup;
+			children = (
+				4978F19721BB20270010234F /* EventMonitor.swift */,
+				4978F19B21BB21CA0010234F /* PopupViewController.swift */,
+				4978F19C21BB21CA0010234F /* PopupViewController.xib */,
+			);
+			path = Conrollers;
+			sourceTree = "<group>";
+		};
+		4978F1A421BB2F4C0010234F /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				4978F1A021BB257C0010234F /* MainMenu.xib */,
+				4978F19F21BB247D0010234F /* Marshall Connect.entitlements */,
+				4978F18F21BB1F000010234F /* Info.plist */,
+				4982E86321C08D90009DDBE9 /* TouchBar.h */,
+				4982E86A21C09844009DDBE9 /* TouchBarHelper.h */,
+				4982E86C21C0984F009DDBE9 /* TouchBarHelper.swift */,
+				4982E86421C08E4B009DDBE9 /* Marshall_Connect.h */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		497A97CC21BDB45600EAC83F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				497A97CD21BDB46F00EAC83F /* DiscoveryManager.swift */,
+				497A97D821BDC73000EAC83F /* APIManager.swift */,
+				497A97D121BDC3E500EAC83F /* DeviceManager.swift */,
+				497A97CF21BDC37800EAC83F /* PlayerManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		497A97D321BDC56B00EAC83F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				497A97D421BDC5B500EAC83F /* SWXMLHash.swift */,
+				497A97D621BDC5CD00EAC83F /* SWXMLHash+TypeConversion.swift */,
+				4910FB7921BDE6080079BB95 /* SwiftXMLParser.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4982E81721BEDAA9009DDBE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4982E81821BEDAB7009DDBE9 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4982E86721C09134009DDBE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4982E86821C09135009DDBE9 /* DFRFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49B6E34E21BB548000ACD237 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				49B6E34F21BB549000ACD237 /* PlaybackSliderCell.swift */,
+				497A97CA21BC34B400EAC83F /* ShadowLayer.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4982E86521C08EB3009DDBE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4982E86B21C09844009DDBE9 /* TouchBarHelper.h in Headers */,
+				4982E86621C08EC9009DDBE9 /* TouchBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4978F18421BB1EFE0010234F /* Marshall Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4978F19321BB1F000010234F /* Build configuration list for PBXNativeTarget "Marshall Connect" */;
+			buildPhases = (
+				4982E86521C08EB3009DDBE9 /* Headers */,
+				4978F18121BB1EFE0010234F /* Sources */,
+				4978F18221BB1EFE0010234F /* Frameworks */,
+				4978F18321BB1EFE0010234F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marshall Connect";
+			productName = "Marshal Connect";
+			productReference = 4978F18521BB1EFE0010234F /* Marshall Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4978F17D21BB1EFE0010234F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vahagn Mkrtchyan";
+				TargetAttributes = {
+					4978F18421BB1EFE0010234F = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4978F18021BB1EFE0010234F /* Build configuration list for PBXProject "Marshall Connect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4978F17C21BB1EFE0010234F;
+			productRefGroup = 4978F18621BB1EFE0010234F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4978F18421BB1EFE0010234F /* Marshall Connect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4978F18321BB1EFE0010234F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497A97C921BC2AC000EAC83F /* Assets.xcassets in Resources */,
+				4978F19E21BB21CA0010234F /* PopupViewController.xib in Resources */,
+				4978F1A121BB257C0010234F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4978F18121BB1EFE0010234F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4982E81921BEDAB7009DDBE9 /* Models.swift in Sources */,
+				497A97D221BDC3E500EAC83F /* DeviceManager.swift in Sources */,
+				4978F18921BB1EFE0010234F /* AppDelegate.swift in Sources */,
+				4982E86D21C0984F009DDBE9 /* TouchBarHelper.swift in Sources */,
+				49B6E35021BB549000ACD237 /* PlaybackSliderCell.swift in Sources */,
+				4978F19821BB20270010234F /* EventMonitor.swift in Sources */,
+				497A97D921BDC73000EAC83F /* APIManager.swift in Sources */,
+				497A97D021BDC37800EAC83F /* PlayerManager.swift in Sources */,
+				4978F19D21BB21CA0010234F /* PopupViewController.swift in Sources */,
+				497A97CE21BDB46F00EAC83F /* DiscoveryManager.swift in Sources */,
+				497A97D521BDC5B500EAC83F /* SWXMLHash.swift in Sources */,
+				497A97CB21BC34B400EAC83F /* ShadowLayer.swift in Sources */,
+				4910FB7A21BDE6080079BB95 /* SwiftXMLParser.swift in Sources */,
+				497A97D721BDC5CD00EAC83F /* SWXMLHash+TypeConversion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4978F19121BB1F000010234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4978F19221BB1F000010234F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4978F19421BB1F000010234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Marshall Connect/Misc/Marshall Connect.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3DDHTD2T5U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Marshall Connect/Misc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icyberon.Marshall-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marshall Connect/Misc/Marshall_Connect.h";
+				SWIFT_VERSION = 4.2;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		4978F19521BB1F000010234F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Marshall Connect/Misc/Marshall Connect.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3DDHTD2T5U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Marshall Connect/Misc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icyberon.Marshall-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marshall Connect/Misc/Marshall_Connect.h";
+				SWIFT_VERSION = 4.2;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4978F18021BB1EFE0010234F /* Build configuration list for PBXProject "Marshall Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4978F19121BB1F000010234F /* Debug */,
+				4978F19221BB1F000010234F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4978F19321BB1F000010234F /* Build configuration list for PBXNativeTarget "Marshall Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4978F19421BB1F000010234F /* Debug */,
+				4978F19521BB1F000010234F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4978F17D21BB1EFE0010234F /* Project object */;
+}
